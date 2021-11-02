@@ -1,15 +1,15 @@
 import { Typography, Box, makeStyles, Grid, TextField, Button } from "@material-ui/core"
-import { deepPurple, green } from '@material-ui/core/colors';
+import {  red, green } from '@material-ui/core/colors';
 import List from "../student/List";
 import axios from "axios";
 import { useState } from "react";
 const useStyles = makeStyles({
  headingColor: {
-  backgroundColor: deepPurple[400],
+  backgroundColor: red[500],
   color: "white"
  },
  addStuColor: {
-  backgroundColor: green[400],
+  backgroundColor: green[ 700],
   color: "white"
  },
 })

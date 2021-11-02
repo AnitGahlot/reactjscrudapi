@@ -1,5 +1,5 @@
 import { Typography, Box, makeStyles, TableContainer, Table, TableBody, TableCell, TableHead, TableRow, Paper, IconButton, Tooltip } from "@material-ui/core"
-import { orange } from '@material-ui/core/colors';
+import { blueGrey } from '@material-ui/core/colors';
 import VisibilityIcon from '@material-ui/icons/Visibility';
 import EditIcon from '@material-ui/icons/Edit';
 import DeleteIcon from '@material-ui/icons/Delete';
@@ -8,7 +8,7 @@ import axios from "axios";
 import { useState, useEffect } from "react";
 const useStyles = makeStyles({
  stuListColor: {
-  backgroundColor: orange[400],
+  backgroundColor: blueGrey[400],
   color: "white"
  },
  tableHeadCell: {
